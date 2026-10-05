@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Adarsh Yerneni | Profile</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a class="brand" href="#top">Adarsh Yerneni</a>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+      <a href="#interests">Interests</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <img class="photo" src="images/profile.jpg" alt="Portrait of Adarsh Yerneni">
+      <div>
+        <h1>Adarsh Yerneni</h1>
+        <p class="tagline">BTech student and AI engineer building RAG systems, agent pipelines and backend tools.</p>
+        <p class="hero-links">
+          <a class="btn" href="#contact">Get in touch</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/adarsh-yerneni" target="_blank" rel="noopener">LinkedIn</a>
+        </p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About me</h2>
+      <p>I'm a second-year Computer and Communication Engineering student at Manipal Institute of Technology. I like turning messy, manual workflows into automated systems, whether that's an HR assistant on Slack, a competitive-intelligence agent, or a lead-scoring pipeline.</p>
+      <p>Outside code, I serve as Senior MC of the Music Club (Chords n' Co.) and won Manipal Hackathon '25 with a marketplace for construction and demolition waste.</p>
+    </section>
+
+    <section id="experience">
+      <h2>Experience</h2>
+
+      <article class="item">
+        <div class="item-head">
+          <h3>AI Research Intern, PensionBox</h3>
+          <span class="date">May 2026 – Jul 2026</span>
+        </div>
+        <ul>
+          <li>Built a RAG-based HR Slack agent (FastAPI, FAISS, OpenAI) with GPT-driven intent detection, replacing regex routing.</li>
+          <li>Connected We360.ai and RazorpayX Payroll with concurrent API calls, and automated a daily discrepancy check that saves about 5 hours of HR audit work a week.</li>
+          <li>Architected a 5-node LangGraph multi-agent pipeline for competitive intelligence across 10+ competitors, with a PFRDA regulatory-news monitor.</li>
+        </ul>
+      </article>
+
+      <article class="item">
+        <div class="item-head">
+          <h3>Backend Intern, TribeLink</h3>
+          <span class="date">May 2025 – Aug 2025</span>
+        </div>
+        <ul>
+          <li>Built a Node.js backend with full CRUD for service providers and customers.</li>
+          <li>Developed RESTful APIs in JavaScript to support ONDC-based operations.</li>
+        </ul>
+      </article>
+
+      <h3 class="sub">Projects</h3>
+      <article class="item">
+        <div class="item-head"><h3>RAG-Inspector</h3><span class="date">FastAPI, LangChain, FAISS, Streamlit</span></div>
+        <p>Compares four RAG configurations across chunk size, overlap and embedding model, then uses an LLM-as-a-Judge to score answers, flag hallucinations and pick the best setup.</p>
+      </article>
+      <article class="item">
+        <div class="item-head"><h3>B2B Lead Qualification Engine</h3><span class="date">Google Apps Script, RDAP, Apollo API</span></div>
+        <p>Scores sales leads from domain age, company size, sector and job-title seniority, with a 10-stage pipeline that can be safely re-run.</p>
+      </article>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <article class="item">
+        <div class="item-head">
+          <h3>Manipal Institute of Technology</h3>
+          <span class="date">Jul 2024 – May 2028</span>
+        </div>
+        <p>BTech in Computer and Communication Engineering. CGPA 7.53 / 10.</p>
+        <p class="muted">Data Structures, Algorithms, Databases, Computer Networks, Data Visualisation, OOP, Embedded Systems.</p>
+      </article>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <h3 class="sub">Languages</h3>
+      <ul class="chips">
+        <li>Python</li><li>JavaScript</li><li>C / C++</li><li>Java</li><li>Verilog</li><li>SQL (PostgreSQL, MySQL)</li>
+      </ul>
+      <h3 class="sub">Tools and frameworks</h3>
+      <ul class="chips">
+        <li>FastAPI</li><li>LangGraph</li><li>LangChain</li><li>FAISS</li><li>Node.js</li><li>Streamlit</li><li>Git and GitHub</li><li>VS Code</li><li>Google Apps Script</li>
+      </ul>
+    </section>
+
+    <section id="interests">
+      <h2>Interests</h2>
+      <ul class="plain">
+        <li><strong>Music:</strong> Senior MC at Chords n' Co., the Manipal music club, where I also bring in event sponsors.</li>
+        <li><strong>Hackathons:</strong> Winner of Manipal Hackathon '25.</li>
+        <li><strong>AI agents and RAG:</strong> evaluating and building systems that retrieve, reason and act.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul class="plain">
+        <li>Email: <a href="mailto:adarshyerneni@gmail.com">adarshyerneni@gmail.com</a></li>
+        <li>Phone: <a href="tel:+919513290957">+91 95132 90957</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/adarsh-yerneni" target="_blank" rel="noopener">Adarsh Yerneni</a></li>
+        <li>GitHub: <a href="https://github.com/YOUR-USERNAME" target="_blank" rel="noopener">github.com/YOUR-USERNAME</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>© 2026 Adarsh Yerneni</footer>
+</body>
+</html>
